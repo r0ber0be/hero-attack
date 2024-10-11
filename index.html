@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <title>Hero Attack</title>
+</head>
+<body>
+  <main class="main-container">
+    <section class="content">
+      <input id="hero-name" type="text" min="0" title="Nome do herói" placeholder="Insira o nome do herói" required>
+      <select id="hero-type" name="hero-type" title="Categoria do herói">
+        <option value="0">Guerreiro</option>
+        <option value="1">Mago</option>
+        <option value="2">Monge</option>
+        <option value="3">Ninja</option>
+      </select>
+      <input id="hero-age" type="number" min="0" title="Idade do herói" placeholder="Insira a idade do herói" required>
+      <button type="button" id="add-hero-attack">Atacar</button>
+    </section>
+
+    <section>
+      <p id="hero-attack">
+        ...
+      </p>
+    </section>
+  </main>
+</body>
+<script src="./index.js" type="module"></script>
+</html>
